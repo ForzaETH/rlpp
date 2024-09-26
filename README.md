@@ -15,25 +15,25 @@ Note: it is suggested to use a virtualenvironment of some kind
 
 You can install the environment by running:
 ```bash
-git clone pbl-f1tenth-gym   # link to be updated very soon
-cd ~/pbl-f1tenth-gym
+git clone https://github.com/ForzaETH/rlpp.git
+cd ~/rlpp
 pip install -r requirements.txt
 pip install -e .
 ```
 
 Install the splinify-package and the modified stable-baselines-3:
 ```bash
-git stable-baselines-3   # link to be updated very soon
+git clone https://github.com/ForzaETH/stable-baselines3.git
 cd ~/stable-baselines-3
 pip install -e .
-git clone splinify-package   # link to be updated very soon
+git clone https://github.com/ForzaETH/-Splinify-Package.git
 cd ~/splinify-package
 pip install .
 ```
 
 Reinstall the correct version of pyglet because something installs it to an old version:
 ```bash
-cd ~/pbl-f1tenth-gym
+cd ~/rlpp
 pip install -r requirements.txt
 ```
 TODO: fix this, prob in splinify
